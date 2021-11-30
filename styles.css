@@ -24,7 +24,7 @@ body{
 }
 /*Navigation*/
 #container_menu{
-    max-width: 900px;
+    max-width: 1000px;
     background-color: rgb(87, 119, 87);
     margin: auto;
     height: 60px;
