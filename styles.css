@@ -18,14 +18,31 @@ body{
     line-height: 1.5;
     margin: 10px 0 10px 0;
 }
-
+.container{
+    width: 100%;
+    background-color: royalblue;
+}
 /*Navigation*/
-.nav{
-    display: flex;
-    justify-content: space-between;
-    /*border-bottom:1px solid rgba(3, 3, 3, 0.5);*/
+#container_menu{
+    max-width: 900px;
+    background-color: rgb(87, 119, 87);
+    margin: auto;
     height: 60px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 3px 4px;
+}
+#icono{
+    position: absolute;
+}
+nav{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /*border-bottom:1px solid rgba(3, 3, 3, 0.5);*/
+margin: auto;
+}
+ul{
+    background-color: salmon;
+display: flex;
+justify-content: center;
 }
 .icon-container{
     display: flex;
